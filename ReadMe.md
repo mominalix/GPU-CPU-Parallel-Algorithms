@@ -13,6 +13,7 @@ Following is the current file directory structure:
   - [GPU Acceleration](GPU%20Acceleration)
     - [GPU-Accelerated Image Convolution](GPU%20Acceleration/GPU-Accelerated%20Image%20Convolution)
   - [Performance Optimization](Performance%20Optimization)
+    - [Efficient Prime Number Generator](Performance%20Optimization/Efficient%20Prime%20Number%20Generator)
     - [Performance Profiler](Performance%20Optimization/Performance%20Profiler)
 
 
