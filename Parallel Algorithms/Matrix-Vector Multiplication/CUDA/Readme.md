@@ -21,7 +21,7 @@ To compile the CUDA program, follow these steps:
 3. Run the following command to compile the code using `nvcc`:
 
    ```
-   nvcc matrix_vector_multiplication.cu -o matrix_vector_multiplication
+   nvcc parallel_matrix_vector_multiplication.cu -o matrix_vector_multiplication
    ```
 
 ### Running the Program
@@ -31,7 +31,7 @@ After successful compilation, run the executable to perform matrix-vector multip
 1. Run the compiled executable:
 
    ```
-   ./matrix_vector_multiplication
+   ./parallel_matrix_vector_multiplication
    ```
 
 2. The program will execute and output the result of the matrix-vector multiplication.
@@ -40,7 +40,7 @@ After successful compilation, run the executable to perform matrix-vector multip
 
 The CUDA program consists of the following components:
 
-- `matrix_vector_multiplication.cu`: The main source code file that implements matrix-vector multiplication using CUDA.
+- `parallel_matrix_vector_multiplication.cu`: The main source code file that implements matrix-vector multiplication using CUDA.
 
 The code performs the following steps:
 

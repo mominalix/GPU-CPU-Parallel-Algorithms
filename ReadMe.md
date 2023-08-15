@@ -9,6 +9,7 @@ Following is the current file directory structure:
     - [Matrix-Vector Multiplication](Parallel%20Algorithms/Matrix-Vector%20Multiplication)
     - [Merge Sort](Parallel%20Algorithms/Merge%20Sort)
     - [Prefix Sum](Parallel%20Algorithms/Prefix%20Sum)
+    - [Quick Sort](Parallel%20Algorithms/Quick%20Sort)
 
 
 ## My High Performance Computing Portfolio
