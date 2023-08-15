@@ -4,14 +4,11 @@
 
 Following is the current file directory structure:
 
-- HPC
-  - Parallel Algorithms
-    - Matrix-Vector Multiplication
-      - CUDA
-    -  Merge Sort
-       - CUDA  
-    - Prefix Sum
-      - CUDA
+- [HPC](./HPC)
+  - [Parallel Algorithms](./HPC/Parallel%20Algorithms)
+    - [Matrix-Vector Multiplication](./HPC/Parallel%20Algorithms/Matrix-Vector%20Multiplication)
+    - [Merge Sort](./HPC/Parallel%20Algorithms/Merge%20Sort)
+    - [Prefix Sum](./HPC/Parallel%20Algorithms/Prefix%20Sum)
 
 
 ## My High Performance Computing Portfolio
