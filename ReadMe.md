@@ -12,6 +12,8 @@ Following is the current file directory structure:
     - [Quick Sort](Parallel%20Algorithms/Quick%20Sort)
   - [GPU Acceleration](GPU%20Acceleration)
     - [GPU-Accelerated Image Convolution](GPU%20Acceleration/GPU-Accelerated%20Image%20Convolution)
+  - [Performance Optimization](Performance%20Optimization)
+    - [Performance Profiler](Performance%20Optimization/Performance%20Profiler)
 
 
 ## My High Performance Computing Portfolio
