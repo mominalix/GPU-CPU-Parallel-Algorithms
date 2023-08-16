@@ -14,6 +14,7 @@ Following is the current file directory structure:
     - [GPU-Accelerated Image Convolution](GPU%20Acceleration/GPU-Accelerated%20Image%20Convolution)
     - [GPU-Accelerated Matrix Multiplication](GPU%20Acceleration/GPU-Accelerated%20Matrix%20Multiplication)
     - [GPU-Accelerated k-means Clustering](GPU%20Acceleration/GPU-Accelerated%20k-means%20Clustering)
+    - [GPU-Accelerated Particle Simulation](GPU%20Acceleration/GPU-Accelerated%20Particle%20Simulation)
   - [Performance Optimization](Performance%20Optimization)
     - [Efficient Prime Number Generator](Performance%20Optimization/Efficient%20Prime%20Number%20Generator)
     - [Performance Profiler](Performance%20Optimization/Performance%20Profiler)
