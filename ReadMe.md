@@ -10,6 +10,8 @@ Following is the current file directory structure:
     - [Merge Sort](Parallel%20Algorithms/Merge%20Sort)
     - [Prefix Sum](Parallel%20Algorithms/Prefix%20Sum)
     - [Quick Sort](Parallel%20Algorithms/Quick%20Sort)
+    - [Page Ranking](Parallel%20Algorithms/Page%20Ranking)
+    - [Depth-First Search (DFS)](Parallel%20Algorithms/Depth-First%20Search%20(DFS))
   - [GPU Acceleration](GPU%20Acceleration)
     - [GPU-Accelerated Image Convolution](GPU%20Acceleration/GPU-Accelerated%20Image%20Convolution)
     - [GPU-Accelerated Matrix Multiplication](GPU%20Acceleration/GPU-Accelerated%20Matrix%20Multiplication)
