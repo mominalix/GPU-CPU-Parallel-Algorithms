@@ -12,6 +12,7 @@ Following is the current file directory structure:
     - [Quick Sort](Parallel%20Algorithms/Quick%20Sort)
     - [Page Ranking](Parallel%20Algorithms/Page%20Ranking)
     - [Depth-First Search (DFS)](Parallel%20Algorithms/Depth-First%20Search%20(DFS))
+    - [Parallel Mandelbrot Fractal Generation](Parallel%20Algorithms/Parallel%20Mandelbrot%20Fractal%20Generation)
   - [GPU Acceleration](GPU%20Acceleration)
     - [GPU-Accelerated Image Convolution](GPU%20Acceleration/GPU-Accelerated%20Image%20Convolution)
     - [GPU-Accelerated Matrix Multiplication](GPU%20Acceleration/GPU-Accelerated%20Matrix%20Multiplication)
