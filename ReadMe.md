@@ -22,6 +22,7 @@ Following is the current file directory structure:
   - [Performance Optimization](Performance%20Optimization)
     - [Efficient Prime Number Generator](Performance%20Optimization/Efficient%20Prime%20Number%20Generator)
     - [Performance Profiler](Performance%20Optimization/Performance%20Profiler)
+    - [Sparse Matrix-Vector Multiplication (SpMV)](Performance%20Optimization/Sparse%20Matrix-Vector%20Multiplication%20(SpMV))
 
 
 ## My High Performance Computing Portfolio
