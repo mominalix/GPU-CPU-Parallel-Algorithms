@@ -14,6 +14,7 @@ Following is the current file directory structure:
     - [Depth-First Search (DFS)](Parallel%20Algorithms/Depth-First%20Search%20(DFS))
     - [Parallel Mandelbrot Fractal Generation](Parallel%20Algorithms/Parallel%20Mandelbrot%20Fractal%20Generation)
     - [Genetic Algorithm for Feature Selection](Parallel%20Algorithms/Genetic%20Algorithm%20for%20Feature%20Selection)
+    - [Monte Carlo Pi Estimation](Parallel%20Algorithms/Monte%20Carlo%20Pi%20Estimation)
   - [GPU Acceleration](GPU%20Acceleration)
     - [GPU-Accelerated Image Convolution](GPU%20Acceleration/GPU-Accelerated%20Image%20Convolution)
     - [GPU-Accelerated Matrix Multiplication](GPU%20Acceleration/GPU-Accelerated%20Matrix%20Multiplication)
