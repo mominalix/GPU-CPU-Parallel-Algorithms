@@ -15,10 +15,19 @@ def assemble_global_stiffness_matrix(local_stiffness_matrices, connectivity, num
     return global_stiffness_matrix
 
 def solve_parallel_FEA(global_stiffness_matrix, force_vector, num_nodes):
-    displacements = np.linalg.solve(global_stiffness_matrix, force_vector)
-    return displacements
+    try:
+        displacements = np.linalg.solve(global_stiffness_matrix, force_vector)
+        return displacements
+    except np.linalg.LinAlgError:
+        # Handle the case of a singular matrix
+        print("Warning: Singular matrix encountered. Applying regularization.")
+        regularization = 1e-6  # Small regularization parameter
+        regularized_matrix = global_stiffness_matrix + regularization * np.eye(num_nodes)
+        displacements = np.linalg.solve(regularized_matrix, force_vector)
+        return displacements
 
-def solve_chunk(chunk):
+def solve_chunk(args):
+    global_stiffness_matrix, force_vector, chunk = args
     return solve_parallel_FEA(global_stiffness_matrix[np.ix_(chunk, chunk)], force_vector[chunk], len(chunk))
 
 def main():
@@ -39,7 +48,8 @@ def main():
     pool = multiprocessing.Pool(processes=num_processes)
     chunks = np.array_split(range(num_nodes), num_processes)
     
-    results = pool.map_async(solve_chunk, chunks)
+    args = [(global_stiffness_matrix, force_vector, chunk) for chunk in chunks]
+    results = pool.map_async(solve_chunk, args)
     pool.close()
     pool.join()
     
