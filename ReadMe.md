@@ -32,7 +32,7 @@ Welcome to my High Performance Computing (HPC) showcase! Here, I've curated a co
 
 ## What You'll Find Here
 
-In this repository, you'll discover a variety of sub-projects that highlight my journey in the realm of high-performance computing. From GPU acceleration and distributed systems to performance optimization and advanced simulations, each sub-project embodies a unique facet of HPC. With meticulously crafted code and comprehensive documentation, I aim to provide not only functional implementations but also valuable insights into the underlying principles.
+In this repository, you will discover a variety of sub-projects that highlight my journey in the realm of high-performance computing. From GPU acceleration and distributed systems to performance optimization and advanced simulations, each sub-project embodies a unique facet of HPC. With meticulously crafted code and comprehensive documentation, I aim to provide not only functional implementations but also valuable insights into the underlying principles.
 
 ## Getting Started
 
