@@ -28,7 +28,7 @@ Following is the current file directory structure:
 
 ## My High Performance Computing Portfolio
 
-Welcome to my High Performance Computing (HPC) showcase! Here, I've curated a collection of cutting-edge codes and resources that delve into the world of parallel computing, optimized algorithms, and efficient data processing. As a passionate HPC enthusiast, I've crafted this repository to demonstrate my skills and expertise in harnessing the power of high-performance systems to solve complex computational challenges.
+Welcome to my High Performance Computing (HPC) showcase. Here, I've curated a collection of cutting-edge codes and resources that delve into the world of parallel computing, optimized algorithms, and efficient data processing. As a passionate HPC enthusiast, I've crafted this repository to demonstrate my skills and expertise in harnessing the power of high-performance systems to solve complex computational challenges.
 
 ## What You'll Find Here
 
