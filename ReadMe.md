@@ -36,7 +36,7 @@ In this repository, you will discover a variety of sub-projects that highlight m
 
 ## Getting Started
 
-If you're ready to dive into the world of high-performance computing, start by exploring the sub-projects listed in the repository. Each sub-folder contains its own README with detailed instructions on how to compile, run, and understand the code. Feel free to experiment, adapt, and expand upon the concepts presented here. Your feedback, suggestions, and contributions are greatly appreciated as we collectively advance the field of HPC.
+If you're ready to dive into the world of high-performance computing, start by exploring the sub-projects listed in the repository. Each sub-folder contains its own ReadMe with detailed instructions on how to compile, run, and understand the code. Feel free to experiment, adapt, and expand upon the concepts presented here. Your feedback, suggestions, and contributions are greatly appreciated as we collectively advance the field of HPC.
 
 ## Connect with Me
 
