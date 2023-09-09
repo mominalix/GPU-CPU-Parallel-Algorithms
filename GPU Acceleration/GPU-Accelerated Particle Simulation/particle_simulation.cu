@@ -63,6 +63,7 @@ int main(int argc, char** argv) {
         glutDisplayFunc(display);
         glutMainLoopEvent();
     }
+   
 
     // Clean up
     cudaFree(positions);
