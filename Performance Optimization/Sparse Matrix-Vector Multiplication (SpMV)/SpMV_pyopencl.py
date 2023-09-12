@@ -24,6 +24,9 @@ row_indices_buf = cl.Buffer(context, cl.mem_flags.READ_ONLY | cl.mem_flags.COPY_
 column_indices_buf = cl.Buffer(context, cl.mem_flags.READ_ONLY | cl.mem_flags.COPY_HOST_PTR, hostbuf=matrix.indices)
 vector_buf = cl.Buffer(context, cl.mem_flags.READ_ONLY | cl.mem_flags.COPY_HOST_PTR, hostbuf=vector)
 
+# Create an OpenCL buffer for the result
+result_buf = cl.Buffer(context, cl.mem_flags.WRITE_ONLY, size=matrix.shape[0] * np.dtype(np.float32).itemsize)
+
 # Load and compile OpenCL kernel
 kernel_code = """
 __kernel void spmv_kernel(__global const float* matrix, __global const int* row_indices,
@@ -46,6 +49,9 @@ program = cl.Program(context, kernel_code).build()
 result = np.zeros(matrix.shape[0], dtype=np.float32)
 program.spmv_kernel(queue, result.shape, None, matrix_buf, row_indices_buf,
                     column_indices_buf, vector_buf, result_buf, np.int32(matrix.shape[0]))
+
+# Read the result back from the OpenCL buffer into the 'result' NumPy array
+cl.enqueue_copy(queue, result, result_buf).wait()
 
 # Print the result
 print("Result of SpMV using OpenCL:", result)
