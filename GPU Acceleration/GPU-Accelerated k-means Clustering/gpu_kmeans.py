@@ -23,7 +23,7 @@ def gpu_kmeans(data, n_clusters, max_iters=100, tol=1e-4):
 np.random.seed(0)
 data = np.random.rand(1000, 2)
 
-# Perform k-means clustering on GPU
+# Perform k-means clustering on GPU using Cupy
 labels, centroids = gpu_kmeans(data, n_clusters=3)
 
 print("Cluster Labels:", labels)
