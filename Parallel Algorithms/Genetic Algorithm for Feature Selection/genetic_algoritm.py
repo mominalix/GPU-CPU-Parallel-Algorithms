@@ -3,7 +3,7 @@ import multiprocessing
 
 # Define fitness function (replace with your actual fitness evaluation)
 def fitness(individual):
-    return np.sum(individual)  # Example: maximize the sum of selected features
+    return np.sum(individual)  #Example: maximize the sum of selected features
 
 # Genetic algorithm operations
 def initialize_population(pop_size, num_features):
