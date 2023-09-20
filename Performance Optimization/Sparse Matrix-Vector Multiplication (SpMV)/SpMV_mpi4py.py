@@ -7,7 +7,6 @@ rank = comm.Get_rank()
 size = comm.Get_size()
 
 # Define a sparse matrix in Compressed Sparse Column (CSC) format
-# You can load a real sparse matrix or create a synthetic one
 rows = np.array([0, 1, 2, 2, 3])
 cols = np.array([0, 1, 2, 3, 3])
 data = np.array([1, 2, 3, 4, 5])
