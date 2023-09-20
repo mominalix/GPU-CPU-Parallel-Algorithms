@@ -55,7 +55,6 @@ def parallel_genetic_algorithm(pop_size, num_features, generations, mutation_rat
 
         population = np.array(next_generation)
         best_idx = np.argmax(fitness_scores)
- 
         print(f"Generation {generation+1}: Best Fitness = {fitness_scores[best_idx]}")
 
 # Parameters
