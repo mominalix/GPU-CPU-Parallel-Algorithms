@@ -3,7 +3,7 @@ import multiprocessing
 
 # Define fitness function (replace with your actual fitness evaluation)
 def fitness(individual):
-    return np.sum(individual)  # Example: maximize the sum of selected features
+    return np.sum(individual)  #Example: maximize the sum of selected features
 
 # Genetic algorithm operations
 def initialize_population(pop_size, num_features):
@@ -45,7 +45,6 @@ def parallel_genetic_algorithm(pop_size, num_features, generations, mutation_rat
             selected_parents.extend([parent1_idx, parent2_idx])
 
         parents = population[selected_parents]
-
         next_generation = []
 
         for i in range(0, len(parents), 2):
@@ -55,9 +54,7 @@ def parallel_genetic_algorithm(pop_size, num_features, generations, mutation_rat
             next_generation.extend([child1, child2])
 
         population = np.array(next_generation)
-
         best_idx = np.argmax(fitness_scores)
- 
         print(f"Generation {generation+1}: Best Fitness = {fitness_scores[best_idx]}")
 
 # Parameters
