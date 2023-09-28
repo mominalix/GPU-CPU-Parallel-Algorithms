@@ -6,6 +6,7 @@ total_points = 1000000
 points_inside_circle = 0
 lock = threading.Lock()
 
+# monte carlo pi estimation
 def monte_carlo_pi(num_points):
     global points_inside_circle
 
