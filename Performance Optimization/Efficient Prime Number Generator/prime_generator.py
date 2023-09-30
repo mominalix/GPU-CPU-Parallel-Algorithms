@@ -1,3 +1,4 @@
+#sieve function
 def sieve_of_eratosthenes(limit):
     primes = []
     is_prime = [True] * (limit + 1)
