@@ -20,7 +20,7 @@ def main():
     try:
         upper_limit = int(input("Enter the upper limit for prime numbers: "))
         if upper_limit < 2:
-            print("Please enter a valid upper limit greater than 1.")
+            print("Enter a valid upper limit greater than 1.")
             return
         
         prime_list = sieve_of_eratosthenes(upper_limit)
@@ -28,7 +28,7 @@ def main():
         print(prime_list)
         
     except ValueError:
-        print("Invalid input. Please enter a valid integer.")
+        print("Invalid input. Enter a valid integer.")
     
 if __name__ == "__main__":
     main()
